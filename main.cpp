@@ -3,6 +3,8 @@
 int main()
 {
     int x = 3;
-    std::cout << x << std::endl;
+    int *px = nullptr;
+    std::cout << *px << std::endl;
+    std::cout << "Success!!" << std::endl;
     return 0;
 }
